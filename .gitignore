@@ -1,0 +1,23 @@
+# Environment and Secrets
+.env
+**/.env
+
+# Python Environment & Cache
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ADK Framework
+.adk/
+**/.adk/
+
+# Local Databases
+*.db
+*.sqlite3
+
+# System Files
+.DS_Store
+Thumbs.db
