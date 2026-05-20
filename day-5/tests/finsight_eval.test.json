@@ -1,0 +1,87 @@
+{
+  "eval_set_id": "finsight_v1_unit_tests",
+  "name": "FinSight v1.0 unit eval",
+  "description": "Verifies DataFetcherAgent calls get_market_data and produces a risk report containing key fields.",
+  "eval_cases": [
+    {
+      "eval_id": "aapl_risk_report",
+      "conversation": [
+        {
+          "invocation_id": "inv-aapl-001",
+          "user_content": {
+            "role": "user",
+            "parts": [
+              {
+                "text": "Analyse the risk for AAPL"
+              }
+            ]
+          },
+          "final_response": {
+            "role": "model",
+            "parts": [
+              {
+                "text": "risk_level"
+              }
+            ]
+          },
+          "intermediate_data": {
+            "tool_uses": [
+              {
+                "name": "get_market_data",
+                "args": {
+                  "ticker": "AAPL"
+                }
+              }
+            ],
+            "intermediate_responses": []
+          }
+        }
+      ],
+      "session_input": {
+        "app_name": "finsight_agent",
+        "user_id": "eval_user",
+        "state": {}
+      }
+    },
+    {
+      "eval_id": "tsla_risk_report",
+      "conversation": [
+        {
+          "invocation_id": "inv-tsla-001",
+          "user_content": {
+            "role": "user",
+            "parts": [
+              {
+                "text": "Give me a risk report for TSLA"
+              }
+            ]
+          },
+          "final_response": {
+            "role": "model",
+            "parts": [
+              {
+                "text": "volatility"
+              }
+            ]
+          },
+          "intermediate_data": {
+            "tool_uses": [
+              {
+                "name": "get_market_data",
+                "args": {
+                  "ticker": "TSLA"
+                }
+              }
+            ],
+            "intermediate_responses": []
+          }
+        }
+      ],
+      "session_input": {
+        "app_name": "finsight_agent",
+        "user_id": "eval_user",
+        "state": {}
+      }
+    }
+  ]
+}
