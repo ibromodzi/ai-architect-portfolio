@@ -1,0 +1,11 @@
+Trachoma
+
+Trachoma is a bacterial eye infection caused by Chlamydia trachomatis. It is the leading infectious cause of blindness worldwide and a significant public health concern, particularly in communities with limited access to clean water, sanitation, and healthcare. The World Health Organization (WHO) classifies trachoma as a neglected tropical disease.
+
+The infection is spread through direct contact with eye or nose discharge from an infected person, contact with contaminated objects such as towels and clothing, and through certain flies that are attracted to eye and nose secretions. Children are most susceptible to infection, and repeated episodes throughout childhood can lead to progressive damage to the eyelid and eye surface. Poverty, overcrowded living conditions, and inadequate face hygiene are major risk factors.
+
+Trachoma progresses through several stages. In the early stages, the inner surface of the upper eyelid becomes inflamed and develops small follicles. With repeated infections, the inside of the eyelid scars and may eventually turn inward — a condition called trichiasis — causing the eyelashes to rub against the cornea. Over time, this repeated abrasion can scar the cornea, leading to visual impairment and, if untreated, irreversible blindness.
+
+The WHO promotes a SAFE strategy for trachoma control: Surgery to correct advanced trichiasis, Antibiotics to treat active infection (azithromycin is commonly used in community-level programs), Facial cleanliness to reduce transmission, and Environmental improvement including access to water and sanitation. Regular face washing, particularly in children, is one of the most effective individual-level prevention measures.
+
+Trachoma is preventable and treatable, especially when identified early. Communities in endemic regions benefit from public health programs targeting hygiene education and mass antibiotic distribution. Anyone in an affected region who notices persistent eye irritation, discharge, or eyelid changes should seek assessment from a healthcare provider.
